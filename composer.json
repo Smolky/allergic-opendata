@@ -1,0 +1,11 @@
+{
+    "name": "smolky/allergyless-opendata",
+
+    "require": {
+        "altorouter/altorouter": "1.1.0",
+        "pimple/pimple": "~3.0",
+        "twig/twig": "~1.0",
+        "swiftmailer/swiftmailer": "5.4.6",
+        "guzzlehttp/guzzle": "^5.0"
+    }
+}
