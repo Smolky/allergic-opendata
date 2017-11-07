@@ -122,7 +122,12 @@ class Database {
         
         
         // Return results
-        return $this->_query->fetchAll (PDO::FETCH_ASSOC);
+        try {
+            return $this->_query->fetchAll (PDO::FETCH_ASSOC);
+            
+        } catch (Exception $e) {
+            return [];
+        }
         
     }
     
